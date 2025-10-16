@@ -7,7 +7,7 @@ Lightweight CLI to count how many video frames occur in each second and compute 
 
 ## Requirements
 
-- Python 3.8+ (works with 3.13 as well)
+- Python 3.8+
 - FFmpeg installed (for `ffprobe`)
   - Ubuntu/Debian: `sudo apt-get update && sudo apt-get install -y ffmpeg`
   - Fedora: `sudo dnf install ffmpeg`
