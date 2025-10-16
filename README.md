@@ -98,13 +98,23 @@ You should see paths inside `.venv`.
 
 ## Run the tool
 
-- Using the console script (preferred):
+#### Using the console script (preferred):
+
+```bash
+fps-analyzer "<path & file>"
+```
+- Example:
 
 ```bash
 fps-analyzer "/run/media/blezecon/hdd/Obs/test1.mp4"
 ```
 
-- Or run as a Python module:
+#### Or run as a Python module:
+
+```bash
+fps-analyzer "<path & file>"
+```
+- Example:
 
 ```bash
 python -m fps_analyzer "/run/media/blezecon/hdd/Obs/test1.mp4"
